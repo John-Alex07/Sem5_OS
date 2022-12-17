@@ -23,8 +23,8 @@ scanf("%d", &quant);
 printf("\n Process No \t\t Burst Time \tTAT \tWaiting Time ");  
 for(sum=0, i = 0; y!=0; )  
 {  
-if(temp[i] <= quant && temp[i] > 0) 
-{  
+    if(temp[i] <= quant && temp[i] > 0) 
+    {  
     sum = sum + temp[i];  
     temp[i] = 0;  
     count=1;  
